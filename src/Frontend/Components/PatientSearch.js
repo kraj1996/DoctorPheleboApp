@@ -317,7 +317,7 @@ const PatientSearch = () => {
                     </button>
                 </div>
 
-                <div style={{ display: "flex", justifyContent: "space-between" ,gap:"1px" ,magin:"0px"}} className="row">
+                <div style={{ display: "flex", justifyContent: "space-between" ,gap:"1px",marginTop:"7px"}} className="row">
                     <button
                         type="search"
                         className="btn btn-flat btn-info"
@@ -353,9 +353,9 @@ const PatientSearch = () => {
                 ) : (
                     <>
                         {tabledata.length > 0 && (
-                            <div className="">
+                            <div className="box" style={{marginTop:"10px"}}>
                                 <div className="box-header with-border" style={{ background: "#00c0ef", height: "35px", }}>
-                                    <h3 className="box-title" style={{ marginLeft: "6px", font: "13px" }}>Patient Details</h3>
+                                    <h3 className="box-title" style={{ marginLeft: "6px", fontSize: "13px" }}>Patient Details</h3>
                                 </div>
                                 {/* <div className="box-body"> */}
                                 <div className="" style={{ paddingBottom: "5px" }}>
